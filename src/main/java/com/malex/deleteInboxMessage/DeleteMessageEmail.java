@@ -19,7 +19,7 @@ public class DeleteMessageEmail {
         delete(senderEmail, passwordEmail);
     }
 
-    static void delete(String senderEmail, String passwordEmail) {
+    private static void delete(String senderEmail, String passwordEmail) {
         try {
             // get the session object
             Properties properties = new Properties();
